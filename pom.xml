@@ -22,16 +22,16 @@
   <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>mavenapp-releases</id>
-      <name>mavenapp-releases</name>
-      <url>http://34.125.189.126:8081/repository/mavenapp-releases/</url>
+      <id>mavenapp-release</id>
+      <name>mavenapp-release</name>
+      <url>http://34.172.195.1:8081//repository/mavenapp-release/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
-      <id>mavenapp-snapshots</id>
-      <name>mavenapp-snapshots</name>
-      <url>http://34.125.189.126:8081/repository/mavenapp-snapshots/</url>
+      <id>mavenapp-snapshot</id>
+      <name>mavenapp-snapshot</name>
+      <url>http://34.172.195.1:8081/repository/mavenapp-snapshot/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
