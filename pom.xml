@@ -34,8 +34,7 @@
       <url>http://34.125.189.126:8081/repository/mavenapp-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
-  </distributionManagement>
-<plugin>
+    <plugin>
   <groupId>org.jacoco</groupId>
   <artifactId>jacoco-maven-plugin</artifactId>
   <version>0.8.6</version>
@@ -55,4 +54,6 @@
         </execution>
     </executions>
  </plugin>
+  </distributionManagement>
+
 </project>
